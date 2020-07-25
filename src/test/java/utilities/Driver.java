@@ -12,7 +12,7 @@ public class Driver {
     //1-Make constructor private
     private Driver(){
     }
-
+//I did change in here for branch try
     private static WebDriver driver;
 
     public static WebDriver getDriver(){
