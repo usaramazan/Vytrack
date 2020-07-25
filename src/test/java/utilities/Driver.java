@@ -12,11 +12,11 @@ public class Driver {
     //1-Make constructor private
     private Driver(){
     }
-
+//I did change in here for branch try
     private static WebDriver driver;
 
     public static WebDriver getDriver(){
-
+        System.out.println("only try233");
         if (driver == null){
             String browser = ConfigReader.getProperty("browser");
             switch (browser){
